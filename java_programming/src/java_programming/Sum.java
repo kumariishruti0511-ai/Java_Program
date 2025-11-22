@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Sum {
 
-	public void sumNumber(int a, int b, int c) {
+	public void sumNumber(int a, int b) {
 		int s;
-		s=a+b+c;   
+		s=a+b;   
 		
-		System.out.println("Sum of three number= "+s);
+		System.out.println("Sum of two number= "+s);
 	}
 	public void sub(int a,int b) {
 		int s;
@@ -22,7 +22,7 @@ public class Sum {
 		int a=sc.nextInt();
 		int b=sc.nextInt();
 		int c=sc.nextInt();
-		obj.sumNumber(a, b,c);
+		obj.sumNumber(a, b);
 		obj.sub(a, b);
 	}
 
