@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Sum {
 
 	public void sumNumber(int a, int b) {
-		int s;
+		int s; 
 		s=a+b;
 		System.out.println("Sum of two number= "+s);
 	}
