@@ -9,6 +9,11 @@ public class Sum {
 		s=a+b;
 		System.out.println("Sum of two number= "+s);
 	}
+	public void sub(int a,int b) {
+		int s;
+		s=a-b;
+		System.out.println("Sub="+s);
+	}
 	public static void main(String[] args) {
 		Sum obj=new Sum();
 		Scanner sc=new Scanner(System.in);
@@ -16,6 +21,7 @@ public class Sum {
 		int a=sc.nextInt();
 		int b=sc.nextInt();
 		obj.sumNumber(a, b);
+		obj.sub(a, b);
 	}
 
 }
